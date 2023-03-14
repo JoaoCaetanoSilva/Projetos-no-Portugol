@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/PYTHON HTML" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PYTHON ODONTO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PYTHON PROJETOS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/app_python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/calcula-nota-final" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/categorias" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/categorias/curso-php/introducao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/categorias/imposto-renda" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/curso-php/introducao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/imposto-renda" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/media-aluno" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/meu_projeto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/projetos" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/www" vcs="Git" />
+  </component>
+</project>
