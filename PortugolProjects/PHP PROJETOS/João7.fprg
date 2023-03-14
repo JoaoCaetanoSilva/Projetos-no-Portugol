@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-05 10:12:36 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMDU6MDQ6MzggIjsyNTY4"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMTA6MTI6MzYgIjs3OzI2NzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual e o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Qual a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Qual a sua media?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;O seu nome e: &quot; &amp; nome &amp; &quot; e o seu sobrenome e: &quot; &amp; sobrenome &amp; &quot; sua idade e: &quot; &amp; idade &amp; &quot; e sua media e: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

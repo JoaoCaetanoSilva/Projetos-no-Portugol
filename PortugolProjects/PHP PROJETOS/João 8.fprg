@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-05 10:44:36 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMTA6MjM6MTQgIjsyNTU5"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMTA6NDQ6MzYgIjsxOzI2NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;9 x &quot; &amp; numero &amp; &quot; = &quot; &amp; 9*numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

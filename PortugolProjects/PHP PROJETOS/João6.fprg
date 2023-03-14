@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-05 05:14:32 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMDU6MDU6MTAgIjsyNTU5"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMDU6MTQ6MzIgIjsxOzI2NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro1, fevereiro2, marco3, abril4, media" type="Integer" array="False" size=""/>
+            <input variable="janeiro1"/>
+            <input variable="fevereiro2"/>
+            <input variable="marco3"/>
+            <input variable="abril4"/>
+            <assign variable="media" expression="janeiro1+fevereiro2+marco3+abril4/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parabens vc sera promovido!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente vc sera demitido!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-05 04:43:45 "/>
+        <attribute name="created" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMDQ6MjM6MjMgIjsyNTYy"/>
+        <attribute name="edited" value="RGVsbDtERVNLVE9QLU8xNkk5MTE7MjAyMC0wNi0wNTsiMDQ6NDM6NDUgIjsxOzI2NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                    <output expression="&quot;parabens vc comprou um bolo!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente vc nao podera realizar a compra!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
