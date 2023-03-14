@@ -1,2 +1,0 @@
-ano_de_nascimento - ano_de_contratacao + 62 = idade que vai se aposentar
-ano_de_contratacao + 62 - datetime.now().year = ano de aposentadoria
